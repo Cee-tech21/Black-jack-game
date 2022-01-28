@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <!-- Link to the index.css file
+        E.g. search for "how to link to css from html" -->
+        <link href="./Bootstrap/bootstrap.min.css" rel=stylesheet>
+    </head>
+    <body>
+        <main class="bg-success min-vh-100 d-flex">
+            <section class="container m-auto">
+            <div class="row text-center">  
+                <div>
+                    <h1 class="h1 text-center text-warning">Blackjack</h1>
+                    <div class="text-center fw-bold 
+                        text-white">
+                        <h3 class="text-white fst-italic" id="message-el"> 
+                            Want to play a round?</h3>
+                        <p id="cards-el"> Cards: </p>
+                        <p id="sum-el"> Sum: </p>
+                    </div>
+                    <button class="btn btn-warning btn-lg text-success"
+                        onclick="startGame()"> 
+                        START GAME
+                    </button>
+                    <button class="btn btn-warning btn-lg text-success"
+                        onclick="newCard()"> 
+                        NEW CARD
+                    </button>
+                    <div id="player-el">
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            </section>
+        </main>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
